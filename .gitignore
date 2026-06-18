@@ -1,25 +1,66 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ===== OS =====
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-.vite
+._*
+Thumbs.db
+Desktop.ini
+
+# ===== IDE/Editor =====
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# ===== Node.js/Frontend =====
+node_modules/
+.pnpm-store/
+.next/
+.nuxt/
+.vite/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ===== Rust =====
+target/
+
+# ===== Java/JVM =====
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Ruby =====
+.bundle/
+
+# ===== Logs/Temp =====
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ===== Test Coverage =====
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+*.lcov
+
+# ===== Internal =====
+/.work/
