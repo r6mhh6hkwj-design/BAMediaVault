@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "mqjjg78c-jpeiw941",
+      "username": "admin1",
+      "passwordHash": "$2a$10$iDmp40ECXbIOTwr2FbCuKuLTZsTmHpKa5SFTT1x8OvzVl7ElqpTpm",
+      "role": "admin",
+      "permissions": [
+        "view",
+        "upload",
+        "edit_own",
+        "edit_all",
+        "delete_own",
+        "delete_all",
+        "folder_create",
+        "folder_manage_all",
+        "manage_users"
+      ],
+      "passwordResetLog": {},
+      "createdAt": "2026-06-18T13:31:16.764Z"
+    },
+    {
+      "id": "mqjjzl7o-tydaeheg",
+      "username": "user1",
+      "passwordHash": "$2a$10$O5pkZMUtxmKoqw6Yn9KEueMFVhxSMm7kc/xEQp9MdfihvUxemupRy",
+      "role": "user",
+      "permissions": [
+        "view",
+        "upload",
+        "edit_own",
+        "delete_own",
+        "folder_create"
+      ],
+      "passwordResetLog": {},
+      "createdAt": "2026-06-18T13:46:21.348Z"
+    }
+  ]
+}
